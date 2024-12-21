@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Маша и Медведь</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+        body {
+            font-family: 'Poppins',sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+        header {
+        background-image: url("https://i.postimg.cc/sggK0RCy/Screenshot-2024-1221-213755.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        color: white;
+        padding: 1em;
+        text-align: center;
+        }
+        nav ul {
+        list-style-type: none;
+        padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 1em;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 1em;
+        }
+
+        section {
+            margin-bottom: 2em;
+        }
+
+        .videos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1em;
+        }
+
+        .video {
+            width: 45%;
+            display: flex;
+        }
+
+        .video img {
+            width: 150px;
+            height: 150px;
+            margin-right: 5px;
+        }
+        footer {
+            background-color: #424242;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            margin-top: 2em;
+        }
+        .drugoe a{
+            display: block;
+            width: max-content;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Маша и Медведь</h1>
+        <nav>
+            <ul>
+                <li><a href="#collections"></a>Сборники</li>
+                <li><a href="#episodes">Серии</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id='collections'>
+            <h1>Сборники</h1>
+            <div class="videos">
+                <div class="video">
+                    <a href="https://youtu.be/zDYDm3rP6J4" target="_blank">
+                        <img src="https://i.postimg.cc/YC82MYPY/maxresdefault-1.jpg" alt="Самые смешные серии">
+                    </a>
+                <div class="video">
+                    <a href="https://youtu.be/L9JmHJ6MjHE" target="_blank">
+                        <img src="https://i.postimg.cc/2SLTf7yX/maxresdefault-2.jpg" alt="Мега сборник">
+                    </a>
+                </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id='episodes'>
+            <h1>Серии</h1>
+            <div class="videos">
+                <div class="video">
+                    <a href="https://www.youtu.be/NXv99YYH3l0" target="_blank">
+                        <img src="https://i.postimg.cc/Y2PPF95g/maxresdefault.jpg" alt="Живая шляпа">
+                        </img>
+                    </a>
+                </div>
+                <div class="video">
+                    <a href="https://youtu.be/3cd83yYrMGE">
+                        <img src="https://i.postimg.cc/rm4KVzxT/maxresdefault-3.jpg" alt="Идёт коза рогатая">
+                    </a>
+                </div>
+                <div class="drugoe">
+                    <a href="https://www.youtube.com/@mashabearrussian">Другие серии</a>
+                </div>
+            </div>
+        </section>
+    </main>
+        
+    <footer>
+        <p>&copy; Adilet Corporation</p>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+    console.log("Сайт готов к работе!");
+});
+    </script>
+</body>
+</html>
